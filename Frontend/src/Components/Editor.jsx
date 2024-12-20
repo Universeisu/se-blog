@@ -2,7 +2,7 @@ import { useState } from "react";
 import ReactQuill from "react-quill";
 import "react-quill/dist/quill.snow.css"; // นำเข้าธีม Quill
 
-const Create = () => {
+const Editor = () => {
   const [content, setContent] = useState("");
 
   const handleContentChange = (value) => {
@@ -85,4 +85,4 @@ const Create = () => {
   );
 };
 
-export default Create;
+export default Editor;
